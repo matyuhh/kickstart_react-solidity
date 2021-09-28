@@ -1,7 +1,8 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
-const { account, infuraUrl } = require('./accounts_variables');
+const account = 'piano try obtain room wash bus ranch balcony project spy urge such';
+const infuraUrl = 'https://rinkeby.infura.io/v3/3351e6d47432463dbe2c6e36e6f6cc85';
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
