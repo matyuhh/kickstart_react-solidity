@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import { infuraUrl } from './accounts_variables';
+const infuraUrl = 'https://rinkeby.infura.io/v3/3351e6d47432463dbe2c6e36e6f6cc85';
 let web3;
  
 if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
